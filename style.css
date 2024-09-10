@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    width: 80%;
+    height: 50%;
+}
+
+button{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    margin: 20px;
+    padding: 20px;
+    animation: mudarCor 4s linear infinite;
+}
+
+@keyframes mudarCor{
+    0%{background-color: green;}
+    10%{background-color: orange;}
+    20%{background-color: brown;}
+    50%{background-color: aqua;}
+    70%{background-color: bisque;}
+    100%{background-color: green;}
+}
